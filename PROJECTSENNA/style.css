@@ -1,0 +1,30 @@
+body{
+    font-family: sans-serif;
+    background: url(bgmain.jpg);
+    background-size: cover;
+ 
+}
+.box{
+    width: 900px ;
+    float: right;
+    border: 1px solid black;
+
+}
+.box ul li{
+    width: 12opx;
+    float: left;
+    margin: 10px auto;
+    text-align: center;
+    padding: 15px;
+    
+}
+.box ul li a{
+    text-decoration: none;
+    color: black;
+}
+.box ul li:hover{
+    background-color: black;
+}
+.box ul li a:hover{
+    color: orange;
+}
