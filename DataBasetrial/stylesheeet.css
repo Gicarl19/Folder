@@ -1,0 +1,26 @@
+body{
+    background-color: aquamarine;
+    color: blueviolet;
+}
+.box{
+    border: 1px black;
+}
+li a{
+    display: flex;
+    float: right;
+
+}
+.container{
+    background-color: lightseagreen;
+          display: flex;
+          flex-direction: column;
+          width: 1080x;
+          height:300px;
+          align-items: center;
+          border: none;
+          border-radius:5px;
+          box-shadow: 0 0 10px 1px rgba(0, 0,0,0.2);
+          gap: 15px;
+          padding: 100px;
+}
+
