@@ -1,0 +1,42 @@
+<html>
+    <head><title>Guessing Game</title>
+        <style>
+       *{
+        padding: 5px;
+        margin: 12;
+       }
+       body{
+        background-color: aqua;
+       }
+
+
+
+        </style>
+    <script>
+        varnum=math.floor(math.random()*10)+1;
+        function guess() {
+            var num = document.getElementsById("txtnum").value;
+            if (num > rnum){
+                document.getElementById("txtdisplay").innerHTML="MAKE IT LOWER";
+        
+            }
+            else if (num < rnum){
+                document.getElementById("txtdisplay").innerHTML="MAKE IT HIGHER";
+            }
+            else{document.getElementById("txtdisplay").innerHTML="YOU GOT IT";
+        }
+        }
+    </script>
+    </head>
+<body>
+        
+    
+    <form>
+        <h1>GUESSING GAME IN JS</h1><LABEl>ENTER 1-10</LABEl>
+        <input type="number" min="1" max="10" id="txtnum"><br>
+        <input type="button" value="Guess" onclick="guess()">
+
+        <h3 id="txtdisplay">-</h3>
+    </form>
+</body>
+</html>
