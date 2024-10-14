@@ -1,0 +1,97 @@
+body{
+background-color: grey;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    
+}
+.container{
+    display: flex;
+    justify-content: center ;
+    flex-wrap: wrap;
+    padding: 20px;
+    margin-top: 50px;
+}
+.profile-card{
+    max-width: 1000px;
+    background: lightskyblue;
+    border-radius: 15px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 20px;
+    overflow: hidden;
+    cursor: pointer;
+}
+.profile-header{
+    background: linear-gradient(135deg, #001f3f, #005f8f);
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid white;
+}
+.name{
+    font-size: 28px;
+}
+.title{
+    color: #fff;
+    font-size: 17x;
+    margin-top: 3px;
+}
+.profile-body{
+    padding: 20px;
+    text-align: center;
+}
+.description{
+    font-size: 15px;
+    color: aqua;
+    line-height: 1.4;
+}
+span{
+    color: yellow;
+}
+nav{
+    display:flex ;
+    width: 84%;
+    margin: auto;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+
+}
+nav ul li a:hover{
+    color: orange;
+    background-color: black;
+}
+.cont{
+display: flex;
+justify-content: space-between;
+background-color: orange;
+}
+h1{
+    font-size: 45px;
+}
+.imgd{
+    float: left;
+    height:150px;
+   position: relative;
+   border-radius: 10%;
+   
+  }

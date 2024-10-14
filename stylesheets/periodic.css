@@ -1,0 +1,75 @@
+body {
+    background: radial-gradient(circle at 12.3% 19.3%, rgb(85, 88, 218) 0%, rgb(95, 209, 249) 100.2%);
+    color: white;
+    font-family: calibri;
+}
+td {
+    width:5.56%;
+    font-size: 8pt;
+    border: 1px solid orange;
+}
+h2 {
+    text-align: center;
+    font-size: 14pt;
+}
+.yellow{
+    background-color: #eefc5e;
+    color: black;
+}
+.red {
+    background-color: red;
+    color: black;
+}
+.blue{
+background-color: #bae8e8; 
+color: black ;
+}
+.orange{
+background-color: #fdb44b;
+color: black;}
+.green{
+background-color: #91b029;
+color: black;}
+.azure{
+background-color: #455d7a;
+color: black;}
+.violet{
+background-color: #7a3476;
+color: black;}
+.scarlet{
+background-color: #a20e0e;
+color: black;}
+.raspberry{
+background-color: #fc3a52;
+color: black;}
+.pine{
+background-color: #96d38c;
+color: black;}
+.snow{
+background-color: #96d1c7;
+color: black;}
+body{ background-size:cover;
+}
+nav{
+    display:flex ;
+    width: 84%;
+    margin: auto;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+
+}
+nav ul li a:hover{
+    color: black;
+    background: #ec9076;
+}

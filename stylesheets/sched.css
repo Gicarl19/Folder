@@ -1,0 +1,39 @@
+*{
+    font-weight: bold;
+    color: white;
+    padding: 1px;
+    margin: 2px;
+}
+table,th,td{
+border:2px solid orange;
+border-collapse:collapse;}
+.Homepage{
+    align-items: left;
+    display: flex;
+    
+}
+body{
+  background-color: black;
+}nav{
+display:flex ;
+width: 84%;
+margin: auto;
+padding: 20px 0;
+align-items: center;
+justify-content: space-between;
+}
+nav ul li{
+display: inline-block;
+list-style: none;
+margin: 10px 20px;
+}
+nav ul li a{
+text-decoration: none;
+color: white;
+font-weight: bold;
+
+}
+nav ul li a:hover{
+color: orange;
+background: black
+}
